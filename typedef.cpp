@@ -8,10 +8,14 @@ int main(){
     using namespace std;
     std::string FirstName;
     str_t LastName;
-    cout<<"What is your first name?";
+    int age;
+    cout<<"What is your first name? ";
     cin>>FirstName;
-    cout<<'\n'<<"What is your Last name";
+    cout<<"What is your Last name? ";
     cin>>LastName;
-    cout<<'\n'<<"Hi, "<<FirstName<<" "<<LastName;
+    cout<<"What is your age? ";
+    cin>>age;
+    cout<<'\n'<<"Hi, "<<FirstName<<" "<<LastName<<endl;
+    cout<<"You are "<<age<<" years old";
 return 0;
 }
