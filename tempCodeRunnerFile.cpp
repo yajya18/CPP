@@ -1,1 +1,1 @@
-int x=0;
+z = std::min(x,y);
