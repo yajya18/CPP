@@ -16,5 +16,7 @@ int main(){
     std::cout<<"Hello, "<<name<<'\n';
     std::cout<<"You are "<<age<<" years old!!";
 
+    // std::getline(std::cin>>std::ws, name); for removing any input in buffer
+
 return 0;
 }
